@@ -1,0 +1,136 @@
+Make(delphi)
+ver(4.05 build 186)
+Add(MainForm,2953706,21,105)
+{
+ Width=386
+ Height=449
+ Position=1
+}
+Add(ArrayRW,11183782,469,252)
+{
+ link(onRead,9388393:doEvent1,[])
+ link(Array,2858307:Array,[(475,222)(489,222)])
+}
+Add(CounterEx,12445000,399,252)
+{
+ Max=999999
+ Default=-1
+ Point(onThroughMax)
+ link(onNext,11183782:doRead,[])
+}
+Add(Memo,5725733,1162,307)
+{
+ Left=5
+ Top=35
+ Width=360
+ Height=310
+ ScrollBars=3
+}
+Add(Button,2053079,126,245)
+{
+ Left=5
+ Top=350
+ Width=360
+ Height=50
+ link(onClick,2968867:doString,[])
+}
+Add(StrList,2858307,469,154)
+{
+}
+Add(FormatStr,2968867,259,245)
+{
+ DataCount=3
+ Mask="http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 а;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 б;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 в;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 г;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 д;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 е;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ё;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ж;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 з;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 и;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 й;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 к;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 л;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 м;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 н;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 о;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 п;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 р;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 с;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 т;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 у;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ф;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 х;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ц;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ч;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ш;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 щ;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ъ;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ы;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ь;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 э;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 ю;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 я;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 a;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 b;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 c;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 d;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 e;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 f;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 g;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 h;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 i;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 j;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 k;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 l;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 m;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 n;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 o;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 p;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 q;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 r;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 s;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 t;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 u;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 v;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 w;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 x;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 y;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 z;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 0;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 1;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 2;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 3;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 4;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 5;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 6;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 7;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 8;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 9;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 _;http://google.com/complete/search?output=toolbar&hl=%2&q=%1 +"
+ Point(FString)
+ link(onFString,1758089:doEnum,[(303,251)(303,297)(247,297)(247,342)])
+ link(Str1,9441369:Text,[])
+ link(Str2,3742107:Text,[(272,226)(286,226)])
+}
+Add(Edit,9441369,259,126)
+{
+ Left=5
+ Top=10
+ Width=315
+ Text="Нос"
+}
+Add(Str_Enum,1758089,259,336)
+{
+ Point(onBreak)
+ link(onEnum,2858307:doAdd,[(380,342)(380,160)])
+ link(onEndEnum,580795:doWork2,[(328,349)(328,258)])
+ link(String,2968867:FString,[])
+}
+Add(Memory,12914672,644,252)
+{
+ @Hint=#15:Состояние хоста|
+ link(onData,13966554:doDownload,[(688,258)(688,293)(632,293)(632,328)])
+}
+Add(HTTP_Get,13966554,644,322)
+{
+ Wait=0
+ link(onDownload,15779580:doConvert,[])
+ link(onStop,580795:doWork3,[(688,349)(688,305)(368,305)])
+ link(URL,12914672:Value,[])
+}
+Add(Convertor,15779580,707,329)
+{
+ Mode=11
+ link(onResult,13634940:doCharset,[])
+}
+Add(Charset,13634940,756,329)
+{
+ Type=7
+ link(onCharset,16614822:doSearch,[])
+}
+Add(BlockFind,16614822,833,329)
+{
+ IncludeBlock=1
+ StartBlock="<suggestion data=""
+ EndBlock=""/>"
+ Point(onNotFind)
+ link(onSearch,6924853:doAdd,[(905,335)(905,454)])
+}
+Add(HubEx,580795,364,252)
+{
+ link(onEvent,12445000:doNext,[])
+}
+Add(Edit,3742107,280,175)
+{
+ Left=325
+ Top=10
+ Width=40
+ Text="ru"
+}
+Add(StrList,6924853,945,448)
+{
+ Point(doSort)
+}
+Add(ArrayEnum,15527345,959,525)
+{
+ link(onItem,2665880:doData,[])
+ link(Array,6924853:Array,[])
+}
+Add(Hub,7378441,896,518)
+{
+ link(onEvent1,6924853:doSort,[(928,524)(928,496)])
+ link(onEvent2,15527345:doEnum,[])
+}
+Add(ChangeMon,2665880,1008,525)
+{
+ link(onData,5725733:doAdd,[(1101,531)(1101,313)])
+}
+Add(CounterEx,12810833,616,406)
+{
+ Max=70
+ Default=-1
+ Point(onThroughMax)
+ link(onThroughMax,7378441:doEvent1,[(772,419)(772,524)])
+}
+Add(Hub,9388393,581,252)
+{
+ link(onEvent1,12914672:doValue,[])
+ link(onEvent2,12810833:doNext,[(599,265)(599,412)])
+}
+Add(StyleXP,3313430,49,336)
+{
+}
